@@ -32,36 +32,26 @@ export default function Home(props: HomeProps) {
         />
       </div>
       <h2 className="text-center font-bold text-5xl">{props.guild.name}</h2>
-      <div className="text-center mb-10 mt-2">
+      <div className="text-center">
         <a
           href={config.guild_invite}
-          className="bg-indigo-50 font-medium mt-5 text-indigo-600 px-4 py-1.5 rounded-full inline-block"
+          className="bg-indigo-50 font-medium mt-5 text-indigo-600 px-4 py-1.5 rounded-full inline-block mb-5"
         >
-          Join {memberCount} other members on Discord
+          Join the {memberCount} other members on Discord!
         </a>
       </div>
       <h3
         className={
-          "rounded-md mb-10 text-center p-2 bg-green-50 text-green-500"
+          "rounded-md mb-10  text-center p-2 bg-pink-50 text-pink-500"
         }
       >
-        Hello World
+        Connect, learn & create with like-minded content creators!
       </h3>
-      <div className="grid grid-cols-2 gap-2">
+      <div className="grid grid-cols-2 gap-3">
         <Card
           href={config.guild_invite}
-          description="Join the Discord"
+          description="Our community"
           title="Discord"
-        />
-        <Card
-          description="Watch My Twitch"
-          title="Twitch"
-          href="https://twitch.tv/twitch"
-        />
-        <Card
-          description="Do something here"
-          title="Another card"
-          href="https://example.com"
         />
       </div>
     </div>
