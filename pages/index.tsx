@@ -27,7 +27,7 @@ export default function Home(props: HomeProps) {
           height={75}
           width={75}
           loading="eager"
-          className="rounded-full shadow-sm"
+          className="rounded-full"
           alt={`Discord server icon of ${props.guild.name}`}
         />
       </div>
@@ -35,7 +35,7 @@ export default function Home(props: HomeProps) {
       <div className="text-center">
         <a
           href={config.guild_invite}
-          className="bg-indigo-50 font-medium mt-5 text-indigo-600 px-4 py-1.5 rounded-full inline-block mb-5"
+          className="bg-pink-50 font-medium mt-5 text-pink-600 px-4 py-1.5 rounded-full inline-block mb-5"
         >
           Join the {memberCount} other members on Discord!
         </a>
@@ -47,10 +47,10 @@ export default function Home(props: HomeProps) {
       >
         Connect, learn & create with like-minded content creators!
       </h3>
-      <div className="grid grid-cols-2 gap-3">
+      <div className="grid grid-cols-1 gap-3">
         <Card
           href={config.guild_invite}
-          description="Our community"
+          description="Our community with guides & other creators!"
           title="Discord"
         />
       </div>
