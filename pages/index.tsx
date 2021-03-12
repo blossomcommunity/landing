@@ -51,6 +51,11 @@ export default function Home(props: HomeProps) {
           description="Our community with guides & other creators!"
           title="Discord"
         />
+        <Card
+          href="https://tiktok.com/@blossomcommunity"
+          description="Our TikTok featuring clips of Blossom creators!"
+          title="TikTok"
+        />
       </div>
     </div>
   );
@@ -58,7 +63,6 @@ export default function Home(props: HomeProps) {
 
 export const getStaticProps: GetStaticProps<HomeProps> = async () => {
   const guild = await client.getGuild(config.guild_id || config.guild_invite);
-
   return {
     props: { guild },
     revalidate: 60 * 60,
