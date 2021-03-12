@@ -41,7 +41,7 @@ export default function Home(props: HomeProps) {
         </a>
       </div>
       <h3
-        className={"rounded-md mb-10  text-center p-2 bg-pink-50 text-pink-500"}
+        className={"rounded-md mb-6  text-center p-2 bg-pink-50 text-pink-500"}
       >
         Connect, learn & create with like-minded content creators!
       </h3>
