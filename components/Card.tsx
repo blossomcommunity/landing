@@ -14,7 +14,7 @@ export function Card({
         className="bg-pink-300 rounded-full animate-pulse"
       />
       <div className="ml-5 flex flex-col flex-1">
-        <p className="font-bold leading-none uppercase text-lg tracking-wider text-gray-600">
+        <p className="font-bold leading-none text-lg tracking-wider text-gray-600">
           {title}
         </p>
         <p className="text-gray-400">{description}</p>
