@@ -56,6 +56,11 @@ export default function Home(props: HomeProps) {
           description="Our TikTok featuring clips of Blossom creators!"
           title="TikTok"
         />
+        <Card
+          href="https://www.youtube.com/channel/UCzRRhZIy4umMGyUYG_ChD4Q/featured"
+          description="Our YouTube channel!"
+          title="YouTube"
+        />
       </div>
     </div>
   );
