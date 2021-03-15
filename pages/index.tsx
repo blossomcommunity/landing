@@ -23,7 +23,7 @@ export default function Home(props: HomeProps) {
       </Head>
       <div className="flex items-center justify-center mb-5 block">
         <img
-          src={`https://cdn.discordapp.com/icons/${props.guild.id}/${props.guild.icon}.png?size=256`}
+          src={`https://cdn.discordapp.com/icons/${props.guild.id}/${props.guild.icon}?size=256`}
           height={75}
           width={75}
           loading="eager"
