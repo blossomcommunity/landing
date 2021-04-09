@@ -61,6 +61,11 @@ export default function Home(props: HomeProps) {
           description="Our YouTube channel!"
           title="YouTube"
         />
+        <Card
+          href="https://twitter.com/blsmcommunity"
+          description="Our Twitter account!"
+          title="Twitter"
+        />
       </div>
     </div>
   );
